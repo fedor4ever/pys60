@@ -123,10 +123,9 @@ the same to epoc32 folder.
 COMPILING
 =========
 
-- The build system assumes that it is being run from a subst'ed drive
-pointed at the root of your SDK and that EPOCROOT is \. For example if
-you are using S60 SDK 3.0, you can create a substed drive T: with the
-command:
+- The build system assumes that it is being run from root of your SDK and that
+EPOCROOT is \. For example if you are using S60 SDK 3.0, you can plase source
+folder here or create a substed drive T: with the command:
 
   subst t: C:\Symbian\9.1\S60_3rd_MR
 
